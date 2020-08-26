@@ -1,0 +1,11 @@
+/* contains classes that are not Bootstrap related */
+
+.nav-comp-details {
+    margin-top: 1rem;
+}
+
+.nav-comp-details p{
+    margin-bottom: 0rem;
+    font-family: monospace;
+    font-size: small;
+} 
