@@ -19,3 +19,9 @@
     width: 100%!important;
     height: 100%!important;
 }
+
+.list-group-flush>.list-group-item:hover {
+    cursor: pointer;
+    background-color: rgb(32 142 206);
+    color: white!important;
+}

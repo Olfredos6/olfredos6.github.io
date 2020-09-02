@@ -19,14 +19,24 @@
     <div class="row" style="height: 100%!important;">
         <div class="col flex-column side-content">
             <!-- <h5 class="display-4">Side Content</h5> -->
-            <div class="" style="text-align: center;">
+            <!-- <div class="" style="text-align: center;">
                 <a class="navbar-brand navbar-right" href="index.html">
                     <img src="./images/logo.png" width="100" height="100" class="d-inline-block align-top" alt=""
                         loading="lazy">
                 </a>
-            </div>
-            <div class="">
-                <p>Menu</p>
+            </div> -->
+            <div class="card" style="    margin-top: 15px;">
+                <img src="./images/logo.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                </div>
+                <div class="list-group list-group-flush">
+                    <a class="list-group-item menu-link">Home</a>
+                    <a class="list-group-item menu-link">Products</a>
+                    <a class="list-group-item menu-link">Services</a>
+                    <a class="list-group-item menu-link">About Us</a>
+                    <a class="list-group-item menu-link">Contact Us</a>
+                    <img src="./images/img/add-img.jpg" class="card-img-top" alt="...">
+                </div>
             </div>
         </div>
 
@@ -69,7 +79,7 @@
 
         </div>
         <div class="footer-content col-12">
-            <h5 class="display-4">Footer Content</h5>
+            <small>Footer Content</small>
         </div>
     </div>
 
@@ -97,11 +107,11 @@
         side_content_div.style.minHeight = main_content_div.style.minHeight
         footer_content_div.style.minHeight = `${one_perc_height * (100 - main_height_percentage)}px`
         footer_content_div.style.minWidth = main_content_div.style.minWidth
-        
+
 
         // set banner height
         let banner_wrapper = document.querySelector('.banner-wrapper')
-        banner_wrapper.style.maxHeight = `${one_perc_height * 30}px` 
+        banner_wrapper.style.maxHeight = `${one_perc_height * 30}px`
         // Load partners
         partner_list = document.querySelector(".partner-list")
         for (let p_count = 1; p_count < 5; p_count++) {
