@@ -29,3 +29,25 @@
 .custom-dropdown:hover .custom-dropdown-menu {
     display: block;
 }
+
+.side-content {
+    /* background: #000; */
+    min-height: 100%;
+    width: 230px;
+    padding: 0;
+    position: absolute;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    z-index: 1;
+}
+
+.main-content {
+    /* background: #5454aa; */
+    padding: 10px 20px 0;
+    margin-left: 230px;
+}
+
+.footer-content {
+    /* background-color: #fe4; */
+}
