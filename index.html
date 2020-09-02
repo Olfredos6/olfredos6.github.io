@@ -78,8 +78,10 @@
             <!-- partners -->
 
         </div>
-        <div class="footer-content col-12">
-            <small>Footer Content</small>
+        <div class="footer-content col-10">
+            <small> BraveTech
+                &copy;<script>document.write((new Date()).getFullYear())</script>
+            </small>
         </div>
     </div>
 
@@ -102,11 +104,11 @@
 
         // fix sizes
         let one_perc_height = window.innerHeight / 100;
-        let main_height_percentage = 85;
+        let main_height_percentage = 90;
         main_content_div.style.minHeight = `${one_perc_height * main_height_percentage}px`
         side_content_div.style.minHeight = main_content_div.style.minHeight
         footer_content_div.style.minHeight = `${one_perc_height * (100 - main_height_percentage)}px`
-        footer_content_div.style.minWidth = main_content_div.style.minWidth
+        // footer_content_div.style.minWidth = main_content_div.style.minWidth
 
 
         // set banner height
