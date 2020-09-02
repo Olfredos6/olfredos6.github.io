@@ -44,10 +44,21 @@
 
 .main-content {
     /* background: #5454aa; */
-    padding: 10px 20px 0;
+    /* padding: 10px 20px 0; */
     margin-left: 230px;
 }
 
 .footer-content {
     /* background-color: #fe4; */
+}
+
+.section {
+    margin: 15px 0px 20px 0px;
+}
+
+.section-title {
+    font-size: 2.14rem;
+    font-weight: 700;
+    line-height: 1;
+    margin-bottom: 40px;
 }
