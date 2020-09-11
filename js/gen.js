@@ -1,0 +1,1 @@
+// redirect to mobile version if user gaent is mobile or screen size
