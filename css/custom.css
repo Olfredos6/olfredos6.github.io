@@ -15,13 +15,36 @@
     height: 100%!important;
 }
 
-.carousel-item img {
+.carousel-inner > .carousel-item > img {
     width: 100%!important;
-    height: 100%!important;
+    height: 50vh;
 }
 
 .list-group-flush>.list-group-item:hover {
     cursor: pointer;
     background-color: rgb(32 142 206);
     color: white!important;
+}
+
+.card-menu {
+    border: 0px;
+    background-color: transparent;
+}
+
+
+.card-menu ul li {
+    background-color: transparent;
+}
+
+.card-menu ul li .sub-menu-item{
+    text-align: right;
+}
+
+.card-menu ul li .sub-menu-item:hover{
+    color: #6c757d;
+}
+
+
+.list-group-flush>.list-group-item:hover {
+    background-color: rgb(181 148 102);
 }
