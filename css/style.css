@@ -11,15 +11,15 @@
 body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
-  background-color: #894e00;
+  background-color: #fff;
 }
 
 a {
-  color: #cc1616;
+  color: #263c7d;
 }
 
 a:hover {
-  color: #e82d2d;
+  color: #82bd60;
   text-decoration: none;
 }
 
@@ -45,7 +45,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 24px;
   width: 40px;
   height: 40px;
-  background: #cc1616;
+  background: #263c7d;
   color: #fff;
   transition: all 0.4s;
 }
@@ -74,7 +74,7 @@ h1, h2, h3, h4, h5, h6 {
   position: fixed;
   top: calc(50% - 30px);
   left: calc(50% - 30px);
-  border: 6px solid #cc1616;
+  border: 6px solid #263c7d;
   border-top-color: #efefef;
   border-radius: 50%;
   width: 60px;
@@ -117,7 +117,7 @@ h1, h2, h3, h4, h5, h6 {
   height: 40px;
   font-size: 14px;
   transition: all 0.5s;
-  color: rgba(255, 255, 255, 0.6);
+  color: #263c7d;
 }
 
 #topbar.topbar-scrolled {
@@ -126,16 +126,16 @@ h1, h2, h3, h4, h5, h6 {
 
 #topbar .contact-info a {
   line-height: 1;
-  color: rgba(255, 255, 255, 0.6);
+  color: #263c7d;
   transition: 0.3s;
 }
 
 #topbar .contact-info a:hover {
-  color: #fff;
+  color: #82bd60;
 }
 
 #topbar .contact-info i {
-  color: #cc1616;
+  color: #263c7d;
   padding-right: 4px;
 }
 
@@ -163,7 +163,7 @@ h1, h2, h3, h4, h5, h6 {
 # Header
 --------------------------------------------------------------*/
 #header {
-  background: rgba(234, 238, 242, 0.41);
+  background: rgba(37, 55, 119, 0.2);
   transition: all 0.5s;
   z-index: 997;
   top: 40px;
@@ -239,7 +239,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-menu > ul > li:hover, .nav-menu .active {
-  background: #5d3a0d;
+  background: #263c7d;
 }
 
 .nav-menu .drop-down ul {
@@ -251,7 +251,7 @@ h1, h2, h3, h4, h5, h6 {
   opacity: 0;
   visibility: hidden;
   padding: 10px 0;
-  background: #b19064;;
+  background: #263c7d;;
   box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
   transition: 0.3s;
 }
@@ -480,8 +480,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero .btn-get-started:hover {
-  background: #cc1616;
-  border-color: #cc1616;
+  background: #263c7d;
+  border-color: #263c7d;
 }
 
 @media (min-width: 1024px) {
@@ -582,7 +582,7 @@ section {
 .about .content ul i {
   font-size: 20px;
   padding-right: 4px;
-  color: #cc1616;
+  color: #263c7d;
 }
 
 .about .content p:last-child {
@@ -625,7 +625,7 @@ section {
 }
 
 .why-us .box:hover {
-  background: #cc1616;
+  background: #263c7d;
   padding: 30px 30px 70px 30px;
   box-shadow: 10px 15px 30px rgba(0, 0, 0, 0.18);
 }
@@ -678,7 +678,7 @@ section {
   margin: 0 auto;
   width: 64px;
   height: 64px;
-  background: #cc1616;
+  background: #263c7d;
   transition: all .3s ease-out 0s;
   display: flex;
   align-items: center;
@@ -721,8 +721,8 @@ section {
 }
 
 .services .icon-box:hover {
-  background: #cc1616;
-  border-color: #cc1616;
+  background: #263c7d;
+  border-color: #263c7d;
   padding: 70px 20px 90px 20px;
 }
 
@@ -731,7 +731,7 @@ section {
 }
 
 .services .icon-box:hover .icon i {
-  color: #cc1616;
+  color: #263c7d;
 }
 
 .services .icon-box:hover .icon::before {
@@ -776,8 +776,8 @@ section {
 }
 
 .cta .cta-btn:hover {
-  background: #cc1616;
-  border: 2px solid #cc1616;
+  background: #263c7d;
+  border: 2px solid #263c7d;
 }
 
 /*--------------------------------------------------------------
@@ -851,7 +851,7 @@ section {
 }
 
 .portfolio .portfolio-item .portfolio-info .preview-link:hover, .portfolio .portfolio-item .portfolio-info .details-link:hover {
-  color: #cc1616;
+  color: #263c7d;
 }
 
 .portfolio .portfolio-item .portfolio-info .details-link {
@@ -908,7 +908,7 @@ section {
 
 .pricing .box h4 {
   font-size: 42px;
-  color: #cc1616;
+  color: #263c7d;
   font-weight: 500;
   font-family: "Open Sans", sans-serif;
   margin-bottom: 20px;
@@ -940,7 +940,7 @@ section {
 }
 
 .pricing .box ul i {
-  color: #cc1616;
+  color: #263c7d;
   font-size: 18px;
   padding-right: 4px;
 }
@@ -956,7 +956,7 @@ section {
 }
 
 .pricing .box .btn-buy {
-  background: #cc1616;
+  background: #263c7d;
   display: inline-block;
   padding: 10px 40px;
   color: #fff;
@@ -973,7 +973,7 @@ section {
 }
 
 .pricing .featured {
-  background: #cc1616;
+  background: #263c7d;
   box-shadow: none;
   color: #fff;
 }
@@ -997,7 +997,7 @@ section {
 
 .pricing .featured .btn-buy:hover {
   background: #fff;
-  color: #cc1616;
+  color: #263c7d;
 }
 
 /*--------------------------------------------------------------
@@ -1046,7 +1046,7 @@ section {
 }
 
 .team .member .social a:hover {
-  color: #cc1616;
+  color: #263c7d;
 }
 
 .team .member .social i {
@@ -1066,7 +1066,7 @@ section {
 
 .contact .info-box i {
   font-size: 32px;
-  color: #cc1616;
+  color: #263c7d;
   border-radius: 50%;
   padding: 8px;
   border: 2px dotted #f5a0a0;
@@ -1148,7 +1148,7 @@ section {
 }
 
 .contact .php-email-form input::focus, .contact .php-email-form textarea::focus {
-  background-color: #cc1616;
+  background-color: #263c7d;
 }
 
 .contact .php-email-form input {
@@ -1160,7 +1160,7 @@ section {
 }
 
 .contact .php-email-form button[type="submit"] {
-  background: #cc1616;
+  background: #263c7d;
   border: 0;
   padding: 10px 24px;
   color: #fff;
@@ -1260,7 +1260,7 @@ section {
 }
 
 .portfolio-details .portfolio-details-carousel .owl-dot.active {
-  background-color: #cc1616 !important;
+  background-color: #263c7d !important;
 }
 
 .portfolio-details .portfolio-info {
@@ -1317,7 +1317,7 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: rgba(29, 30, 32, 0.41);
+  background: #fff;
   padding: 0 0 30px 0;
   color: #fff;
   font-size: 14px;
@@ -1367,7 +1367,7 @@ section {
 }
 
 #footer .footer-top .social-links a:hover {
-  background: #cc1616;
+  background: #263c7d;
   color: #fff;
   text-decoration: none;
 }
@@ -1375,7 +1375,7 @@ section {
 #footer .footer-top h4 {
   font-size: 16px;
   font-weight: 600;
-  color: #fff;
+  color: #263c7d;
   position: relative;
   padding-bottom: 12px;
 }
@@ -1392,7 +1392,7 @@ section {
 
 #footer .footer-top .footer-links ul i {
   padding-right: 2px;
-  color: #ed5b5b;
+  color: #82bd60;
   font-size: 18px;
   line-height: 1;
 }
@@ -1408,14 +1408,14 @@ section {
 }
 
 #footer .footer-top .footer-links ul a {
-  color: #fff;
+  color: #000;
   transition: 0.3s;
   display: inline-block;
   line-height: 1;
 }
 
 #footer .footer-top .footer-links ul a:hover {
-  color: #eb4444;
+  color: #82bd60;
 }
 
 #footer .footer-top .footer-newsletter form {
@@ -1441,7 +1441,7 @@ section {
   background: none;
   font-size: 16px;
   padding: 0 20px;
-  background: #cc1616;
+  background: #263c7d;
   color: #fff;
   transition: 0.3s;
   border-radius: 4;
