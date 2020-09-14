@@ -159,6 +159,7 @@
     cellAlign: 'left',
     contain: true,
     autoPlay: true,
+    imagesLoaded: true
   });
 
   // Init AOS
