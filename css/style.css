@@ -51,7 +51,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .back-to-top i:hover {
-  background: #e72323;
+  background: #82bd60;
   color: #fff;
 }
 
@@ -171,8 +171,35 @@ h1, h2, h3, h4, h5, h6 {
 
 #header.header-scrolled {
   top: 0;
-  background: rgba(0, 0, 0, 0.9);
+  background: rgba(236, 238, 242, 0.64);
 }
+
+/* #header.header-scrolled .nav-menu a ul li a{
+  color: #263c7d;
+}
+
+#header.header-scrolled .nav-menu a ul li a:hover{
+  color: #82bd60;
+}
+
+#header.header-scrolled .nav-menu a>.active {
+  color: #fff!important;
+}
+
+
+
+
+#header.header-scrolled .nav-menu a:hover {
+  color: #fff;
+}
+
+#header.header-scrolled.nav-menu.active {
+  color: #fff;
+} */
+
+/* #header.header-scrolled .nav-menu .drop-down ul {
+  color: #fff;
+} */
 
 #header .logo {
   font-size: 32px;
@@ -276,7 +303,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-menu .drop-down ul a:hover, .nav-menu .drop-down ul .active > a, .nav-menu .drop-down ul li:hover > a {
-  color: #5d3a0d;
+  color: #82bd60;
 }
 
 .nav-menu .drop-down > a:after {
