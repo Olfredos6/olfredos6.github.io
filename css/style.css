@@ -363,7 +363,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .mobile-nav-toggle i {
-  color: #fff;
+  color: #263c7d;
 }
 
 .mobile-nav {
@@ -1096,7 +1096,7 @@ section {
   color: #263c7d;
   border-radius: 50%;
   padding: 8px;
-  border: 2px dotted #f5a0a0;
+  border: 2px dotted #82bd60;
 }
 
 .contact .info-box h3 {
