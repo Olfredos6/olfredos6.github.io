@@ -726,7 +726,7 @@ section {
   top: -8px;
   height: 100%;
   width: 100%;
-  background: #fce5e5;
+  background: #b4c76421;
   transition: all .3s ease-out 0s;
   transform: translateZ(-1px);
 }
@@ -762,7 +762,7 @@ section {
 }
 
 .services .icon-box:hover .icon::before {
-  background: #e82d2d;
+  background: #82bd60;
 }
 
 .services .icon-box:hover h4 a, .services .icon-box:hover p {
@@ -773,7 +773,7 @@ section {
 # Cta
 --------------------------------------------------------------*/
 .cta {
-  background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.5)), url("../img/cta-bg.jpg") fixed center center;
+  background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.5)), url("../images/img/vision.jpg") fixed center center;
   background-size: cover;
   padding: 120px 0;
 }

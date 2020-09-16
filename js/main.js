@@ -153,15 +153,6 @@
   });
 
 
-
-  $('.main-carousel').flickity({
-    // options
-    cellAlign: 'left',
-    contain: true,
-    autoPlay: true,
-    imagesLoaded: true
-  });
-
   // Init AOS
   // function aos_init() {
   //   AOS.init({

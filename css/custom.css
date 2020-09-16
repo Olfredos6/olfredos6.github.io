@@ -1,9 +1,9 @@
 /* Conatains classes that are Bootstrap's, modified here */
+
 .carousel {
     width: 100%!important;
     height: 100%!important;
 }
-
 
 .carousel-inner {
     width: 100%!important;
@@ -15,7 +15,7 @@
     height: 100%!important;
 }
 
-.carousel-inner > .carousel-item > img {
+.carousel-inner>.carousel-item>img {
     width: 100%!important;
     height: 50vh;
 }
@@ -31,20 +31,23 @@
     background-color: transparent;
 }
 
-
 .card-menu ul li {
     background-color: transparent;
 }
 
-.card-menu ul li .sub-menu-item{
+.card-menu ul li .sub-menu-item {
     text-align: right;
 }
 
-.card-menu ul li .sub-menu-item:hover{
+.card-menu ul li .sub-menu-item:hover {
     color: #6c757d;
 }
 
-
 .list-group-flush>.list-group-item:hover {
     background-color: rgb(181 148 102);
+}
+
+.contact a .bx {
+    font-size: xxx-large;
+    padding: 0px 18px 0px 18px;
 }
